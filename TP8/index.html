@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Colección de Libros Favoritos</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="coleccion.html">Colección</a></li>
+                <li><a href="glosario.html">Glosario</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1 id="titulo-principal">Mis Libros Favoritos</h1>
+            <p>Una selección personal de historias que me marcaron</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Bienvenidos a mi rincón literario</h2>
+            <p>Aquí comparto los libros que más me han impactado. Cada tarjeta muestra una reseña breve, autor y por qué lo recomiendo.</p>
+        </section>
+
+        <section class="tarjetas-container">
+            <!-- Tarjeta normal -->
+            <article class="tarjeta">
+                <img src="img/libro1.jpg" alt="1984 de George Orwell">
+                <div class="tarjeta-contenido">
+                    <h3>1984</h3>
+                    <p class="meta">George Orwell <span class="año">· 1949</span></p>
+                    <p>Un clásico distópico sobre vigilancia y control. <span class="resaltado">Imprescindible</span> para entender el poder.</p>
+                </div>
+            </article>
+
+            <!-- Tarjeta destacada -->
+            <article class="tarjeta tarjeta--destacada">
+                <img src="img/libro2.jpg" alt="Cien años de soledad">
+                <div class="tarjeta-contenido">
+                    <h3>Cien años de soledad</h3>
+                    <p class="meta">Gabriel García Márquez <span class="año">· 1967</span></p>
+                    <p>Realismo mágico en su máxima expresión. Mi libro favorito de todos los tiempos.</p>
+                </div>
+                <div class="etiqueta">Favorito absoluto</div>
+            </article>
+
+            <!-- Otra tarjeta normal -->
+            <article class="tarjeta">
+                <img src="img/libro3.jpg" alt="El nombre del viento">
+                <div class="tarjeta-contenido">
+                    <h3>El nombre del viento</h3>
+                    <p class="meta">Patrick Rothfuss <span class="año">· 2007</span></p>
+                    <p>Fantasía épica con una narrativa increíble.</p>
+                </div>
+            </article>
+        </section>
+
+        <p class="centro"><a href="coleccion.html" class="btn">Ver colección completa →</a></p>
+    </main>
+
+    <footer id="contacto">
+        <p>© 2025 Juan Pérez - 6° G</p>
+        <p>Contacto: juan.perez@educacion.edu.ar</p>
+    </footer>
+</body>
+</html>
